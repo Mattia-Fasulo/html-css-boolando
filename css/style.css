@@ -146,7 +146,7 @@ nav ul li {
 }
 
 .card:hover .second-img {
-  display: block;
+  display: inline-block;
 }
 
 .card:hover .first-img {
