@@ -49,7 +49,7 @@ html {
 }
 
 .flex-column {
-  flex-flow: row;
+  flex-flow:  column;
 }
 
 header {
@@ -103,14 +103,14 @@ nav ul li {
 
 .lab-dis {
   position: absolute;
-  bottom: 40px;
+  bottom: 100px;
   padding: 4px 10px;
   color: #fff;
 }
 
 .lab-sos {
   position: absolute;
-  bottom: 40px;
+  bottom: 100px;
   left: 52px;
   padding: 4px 10px;
   color: #fff;
@@ -121,4 +121,23 @@ nav ul li {
 }
 .bg-green {
     background-color: #407e23;
+}
+
+.brand{
+    font-size: 12px;
+}
+.f-r {
+    color: #ff3421;
+}
+.t-l {
+    text-decoration: line-through;
+    margin-left: 2px;
+}
+
+.m-l{
+    left: 0;
+}
+
+.m-t {
+    margin-top: 50px;
 }
