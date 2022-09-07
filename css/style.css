@@ -11,8 +11,8 @@ html {
 
 :root {
   --orange: #fd6e00;
-  --red: #de3323;
-  --green: #407e23;
+  --red: #ff3421;
+  --green: #66cd37;
   --black: #1a1a1a;
 }
 
@@ -38,10 +38,18 @@ html {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .flex-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.flex-column {
+  flex-flow: row;
 }
 
 header {
@@ -50,6 +58,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
 }
 
 nav {
@@ -69,4 +78,47 @@ nav ul {
 
 nav ul li {
   padding: 2px 3px;
+}
+
+/* row + card  */
+.row {
+  width: 100%;
+  margin-top: 140px;
+  min-height: 450px;
+}
+
+.card {
+  width: calc((100% - 30px) / 3);
+  position: relative;
+  font-size: 12px;
+}
+
+.m-rl {
+  margin: 0 15px 0;
+}
+
+.card img {
+  width: 100%;
+}
+
+.lab-dis {
+  position: absolute;
+  bottom: 40px;
+  padding: 4px 10px;
+  color: #fff;
+}
+
+.lab-sos {
+  position: absolute;
+  bottom: 40px;
+  left: 52px;
+  padding: 4px 10px;
+  color: #fff;
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+.bg-green {
+    background-color: #407e23;
 }
