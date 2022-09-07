@@ -49,7 +49,7 @@ html {
 }
 
 .flex-column {
-  flex-flow:  column;
+  flex-flow: column;
 }
 
 header {
@@ -117,27 +117,39 @@ nav ul li {
 }
 
 .bg-red {
-    background-color: var(--red);
+  background-color: var(--red);
 }
 .bg-green {
-    background-color: #407e23;
+  background-color: #407e23;
 }
 
-.brand{
-    font-size: 12px;
+.brand {
+  font-size: 12px;
 }
 .f-r {
-    color: #ff3421;
+  color: #ff3421;
 }
 .t-l {
-    text-decoration: line-through;
-    margin-left: 2px;
+  text-decoration: line-through;
+  margin-left: 2px;
 }
 
-.m-l{
-    left: 0;
+.m-l {
+  left: 0;
 }
 
 .m-t {
-    margin-top: 50px;
+  margin-top: 50px;
+}
+
+.second-img {
+  display: none;
+}
+
+.card:hover .second-img {
+  display: block;
+}
+
+.card:hover .first-img {
+  display: none;
 }
