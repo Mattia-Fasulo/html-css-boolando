@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+:root {
+  --orange: #fd6e00;
+  --red: #de3323;
+  --green: #407e23;
+  --black: #1a1a1a;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -15,4 +26,47 @@
   border: 1px solid black;
   min-height: 100px;
   min-width: 100px;
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+/* container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  box-shadow: 0px 1px 5px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  height: 65px;
+  color: #fff;
+}
+
+/* nav + logo */
+#logo {
+  width: 130px;
+  height: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 2px 3px;
 }
