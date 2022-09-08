@@ -32,6 +32,10 @@ html {
   background-color: var(--orange);
 }
 
+.bg-white {
+ background-color: #fff;
+}
+
 /* container */
 .container {
   width: 80%;
@@ -98,6 +102,14 @@ nav ul li {
 
 .card img {
   width: 100%;
+}
+
+.lab-heart {
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  padding: 3px 10px;
+  font-size: 30px;
 }
 
 .lab-dis {
